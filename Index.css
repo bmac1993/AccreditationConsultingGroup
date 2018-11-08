@@ -1,0 +1,233 @@
+﻿/* COLORS */
+/*
+	Primary (orange) - #db6906
+	Secondary (gray) - #544e49
+	Light Gray - #eeeeee
+	White - #f3f3f3
+*/
+
+@font-face {
+	font-family: "Helvetica Neue Medium";
+	src: url("./fonts/HelveticaNeueLTStd-Md.ttf");
+	src: url("./fonts/HelveticaNeueLTStd-Md.otf");
+}
+@font-face {
+	font-family: "Helvetica Neue Bold";
+	src: url("./fonts/HelveticaNeueLTStd-Bd.ttf");
+	src: url("./fonts/HelveticaNeueLTStd-Bd.otf");
+}
+@font-face {
+	font-family: "Helvetica Neue Light";
+	src: url("./fonts/HelveticaNeueLTStd-Lt.ttf");
+	src: url("./fonts/HelveticaNeueLTStd-Lt.otf");
+}
+
+html {
+	font-size:10px;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body, h1, h2, h3, h4, h5, i, a, p, div, span, button {
+	font-family: 'Helvetica Neue Light', sans-serif;
+	color: #393939;
+	font-size: 1.7rem;
+	letter-spacing:0.4px;
+}
+
+a {
+	color: #db6906;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 2.8rem;
+	color: #f3f3f3;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 2.4rem;
+	letter-spacing: 1px;
+	margin-top: 8px;
+}
+
+.circled-icon {
+	display: inline-block;
+	border-radius: 60px;
+	border: 3px solid #f3f3f3;
+	font-size: 2.4rem;
+	color: #f3f3f3;
+}
+
+.container{
+	padding:0;
+	margin:0 auto;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 76px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	position: fixed;
+	width: 100%;
+	z-index:1;
+}
+
+.header-btn-right {
+	float: right;
+	margin-top: 24px;
+}
+
+.content {
+	max-width: 1080px;
+	padding:0 16px 0 16px;
+	margin: 0 auto;
+	height:100%;
+}
+
+.button-secondary {
+	background: transparent;
+	border: 2px solid #f3f3f3;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+	padding:4px 8px;
+	cursor:pointer;
+}
+
+.button-secondary > span {
+	color: #f3f3f3;
+	font-weight:500;
+	font-size:1.6rem;
+}
+
+#preview {
+	background-color: #db6906;
+	background-image: url("./images/background.jpg");
+	padding-top: 108px;
+	padding-bottom: 62px;
+	height: 500px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.ratings {
+	background-color: #eeeeee;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.rating-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.services-and-reviews {
+	margin-top: 32px;
+}
+
+.service {
+	min-height:150px;
+	margin-bottom:32px;
+}
+
+.service-text{
+	line-height:1.4;
+}
+
+.service-image{
+	margin-right:16px;
+	width:150px;
+}
+
+.service-image-example{
+	vertical-align:baseline;
+}
+
+.stories {
+	background-color: #eeeeee;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.stories.content {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.our-story {
+	padding:16px 24px 16px 24px;
+}
+
+.our-mission {
+	padding: 16px 24px 16px 24px;
+}
+
+.review{
+	margin-top:32px;
+	font-weight:300;
+	font-style:italic;
+	text-align:center;
+}
+
+.review-footer {
+	margin-top:8px;
+	text-align: right;
+}
+
+.contact-us {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color: #db6906;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+	text-align: center;
+	color: #f3f3f3;
+}
+
+.contact-info {
+	display: inline-block;
+}
+
+.contact-medium {
+	margin-bottom: 8px;
+	color: #f3f3f3;
+}
+
+.contact-detail {
+	margin-top: 8px;
+	word-wrap: break-word;
+	color: #f3f3f3;
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 8.5px;
+	}
+	.service-image{
+		width:100px;
+	}
+	.header{
+		height:60px;
+	}
+	#btn-contact-us{
+		margin-top:17px;
+	}
+	.button-secondary {
+		padding: 2px 8px;
+	}
+}
